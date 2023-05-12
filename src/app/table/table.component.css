@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+.example-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-button{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 39px;
+}
+.card-class{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.show_hide{
+opacity: 0.5;
+pointer-events: none;
+}
